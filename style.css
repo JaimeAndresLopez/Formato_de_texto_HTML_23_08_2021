@@ -1,0 +1,70 @@
+.Warning{
+    background-color: #ffc107;
+    color: #000000;
+}
+.Success{
+    background-color: #198754;
+    color: #ffffff;
+}
+.Danger{
+    background-color: #dc3545;
+    color: #ffffff;
+}
+.Primary{
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.Success::selection , .Warning::selection, 
+.Danger::selection, .Primary::selection{
+    background-color: #ccc;
+    opacity: 0.5;
+}
+.tablita{
+    width: 22.7em;
+    border: 1px solid #B4BBC8;
+    background-color: #f9f9f9;
+    color: #000;
+    margin: .5em 0 .7em 1.2em;
+    padding: .23em;
+    clear: right;
+    float: right;
+    font-size: 90%;
+    line-height: 1.4em;;
+    text-align: left;
+}
+.tituloTabla{
+    text-align: center;
+    background-color: #69A0F3;
+    color: black;
+    color: #FFFFFF;
+    font-size: 120%;
+}
+.pagina{
+    position: relative;
+    z-index: 0;
+}
+.link{
+    color:#0645ad;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.rellink{
+    font-style: italic;
+    padding-left: 1.6em;
+    margin-bottom: 0.5em;
+}
+a{
+    text-decoration: none;
+    color: #0645ad;
+}
+a:hover{
+    text-decoration: underline;
+}
+sup{
+    color:#0645ad
+}
+sup:hover{
+    text-decoration: underline;
+}
